@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="digi"  fetch="git://github.com/dgii"/>
+  <remote name="fsl"   fetch="git://github.com/Freescale"/>
+  <remote name="oe"    fetch="git://git.openembedded.org"/>
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+
+  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="master">
+    <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
+  </project>
+  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="danny"/>
+  <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="danny"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="danny"/>
+  <project name="poky"              path="sources/poky"              remote="yocto" revision="danny"/>
+</manifest>

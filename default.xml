@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="dylan"/>
+
+  <remote name="digi"  fetch="git://github.com/dgii"/>
+  <remote name="fsl"   fetch="git://github.com/Freescale"/>
+  <remote name="oe"    fetch="git://git.openembedded.org"/>
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+
+  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="3ec0507d9f7fcec3b3765f7804639110a6d63dc3">
+    <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
+  </project>
+  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="24caed8ff6f6088033d00d4567f7a7cad7fd5dd3"/>
+  <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="724cfb929748f47782dea3b1dc412b028f6f3515"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="44754206632dd5b0725aeb43e99e4ff9e0245dca"/>
+  <project name="poky"              path="sources/poky"              remote="yocto" revision="57e6d537e847b88e4f89cd01be8a2926953b0082"/>
+</manifest>

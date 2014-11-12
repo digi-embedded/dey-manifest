@@ -7,11 +7,11 @@
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="f29fb1bc44290833f79dffe22ad49f1ddcd31e9e">
+  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="c0cb96532deada5b28efad88a8aae24d5a668363">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="d91871446d6baee8397522c4fa10d45985aa8645"/>
-  <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="27fdb2f2642ecd55d5633bde880dd4c37acd0d42"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="a6dcf6265822ca1484d991d10a3042e04a960cdb"/>
-  <project name="poky"              path="sources/poky"              remote="yocto" revision="c4f1f0f491f988901bfd6965f7d10f60cb94a76f"/>
+  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="9bc540eec9a7e280af13371ea70650fcc47ea627"/>
+  <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="f141c7d1158b8addbd6f1ed047a1b47c2ed85f8f"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="8065dd8456913457a0114ddb2b4bd4842847b2a3"/>
+  <project name="poky"              path="sources/poky"              remote="yocto" revision="30b8d9378b8260e452552b806610dc9b6fe0b69f"/>
 </manifest>

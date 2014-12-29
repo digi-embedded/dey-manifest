@@ -2,7 +2,7 @@
 <manifest>
   <default sync-j="4" revision="daisy"/>
 
-  <remote name="digi"  fetch="git://github.com/dgii"/>
+  <remote name="digi"  fetch="git://github.com/digidotcom"/>
   <remote name="fsl"   fetch="git://github.com/Freescale"/>
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>

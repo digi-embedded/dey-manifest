@@ -7,7 +7,7 @@
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="b832da75b213098946e5e9ea277c2f5970078c2c">
+  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="2463afb258bac4f69f14b6b0bb0adfccc2c6be3e">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
   <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="0c4de80867c3ab4e9682dd7802d3fd907d1e1a23"/>

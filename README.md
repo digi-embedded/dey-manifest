@@ -13,26 +13,27 @@ Follow these steps to install Digi Embedded Yocto:
 
 1. Download repo to a directory within your path and add execution permissions.
 
-```
-$ sudo curl -o /usr/local/bin/repo http://commondatastorage.googleapis.com/git-repo-downloads/repo
-$ sudo chmod a+x /usr/local/bin/repo
-```
+    ```
+    $ sudo curl -o /usr/local/bin/repo http://commondatastorage.googleapis.com/git-repo-downloads/repo
+    $ sudo chmod a+x /usr/local/bin/repo
+    ```
 
-2. Create an installation folder with user write permissions; for example, /usr/local/dey-2.2. Navigate to that folder:
+2. Create an installation folder with user write permissions; for example,
+    `/usr/local/dey-2.2` and navigate to that folder.
 
-```
-$ sudo install -o <your-user> -g <your-group> -d /usr/local/dey-2.2
-$ cd /usr/local/dey-2.2
-```
+    ```
+    $ sudo install -o <your-user> -g <your-group> -d /usr/local/dey-2.2
+    $ cd /usr/local/dey-2.2
+    ```
 
-Note: You can get your primary user and group using the id command.
+    Note: You can get your primary user and group using the `id` command.
 
 3. Use repo to download Digi Embedded Yocto.
 
-```
-$ repo init -u https://github.com/digi-embedded/dey-manifest.git -b morty
-$ repo sync -j4 --no-repo-verify
-```
+    ```
+    $ repo init -u https://github.com/digi-embedded/dey-manifest.git -b morty
+    $ repo sync -j4 --no-repo-verify
+    ```
 
 More information about [Digi Embedded Yocto](https://github.com/digi-embedded/meta-digi).
 

@@ -39,7 +39,7 @@
 		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.2/r2/sdk/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-cortexa7hf-neon-toolchain-2.2-r2.sh</url>
 		<checksum>29c76531c2b068da4bb93cd526365095</checksum>
 	</toolchain>
-	
+
 	<!-- DEY 2.2-r1 -->
 	<!-- ConnectCore 6 SBC -->
 	<toolchain>
@@ -79,7 +79,7 @@
 		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.2/r1/sdk/ccimx6ulstarter/dey-glibc-x86_64-core-image-base-cortexa7hf-neon-toolchain-2.2-r1.sh</url>
 		<checksum>9eb4da5e987a9c230039bda53c7b73a2</checksum>
 	</toolchain>
-	
+
 	<!-- DEY 2.0-r5 -->
 	<!-- ConnectCore 6 SBC -->
 	<toolchain>
@@ -119,7 +119,7 @@
 		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.0/r5/sdk/40002893_A/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-cortexa7hf-vfp-neon-toolchain-2.0-r5.sh</url>
 		<checksum>58b89d54368f314437046133c47a096b</checksum>
 	</toolchain>
-	
+
 	<!-- DEY 2.0-r4 -->
 	<!-- ConnectCore 6 SBC -->
 	<toolchain>
@@ -159,7 +159,7 @@
 		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.0/r4/sdk/40002893_2P/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-cortexa7hf-vfp-neon-toolchain-2.0-r4.sh</url>
 		<checksum>0b6c43d3e97ce842fbadb68871e3e4f0</checksum>
 	</toolchain>
-	
+
 	<!-- DEY 2.0-r3 -->
 	<!-- ConnectCore 6 SBC -->
 	<toolchain>
@@ -184,7 +184,7 @@
 		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.0/r3/sdk/40002893_1P/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-armv7a-vfp-neon-toolchain-2.0-r3.sh</url>
 		<checksum>3f145417f507cc8be582879155157a78</checksum>
 	</toolchain>
-	
+
 	<!-- DEY 2.0-r2 -->
 	<!-- ConnectCore 6 SBC -->
 	<toolchain>
@@ -201,7 +201,7 @@
 		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.0/r2/sdk/40002891_B/ccimx6sbc/fb/dey-glibc-x86_64-dey-image-qt-fb-cortexa9hf-vfp-neon-toolchain-2.0-r2.sh</url>
 		<checksum>2c433dabf05e9c32a49d4293f2f70863</checksum>
 	</toolchain>
-	
+
 	<!-- DEY 2.0-r1 -->
 	<!-- ConnectCore 6 SBC -->
 	<toolchain>

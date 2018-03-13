@@ -9,13 +9,13 @@
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="42d43ff5fb558f1dcc1232bdfca4774d4071297c">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="1246ecff2cecea9247d94f36385608ac844d7abb">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-freescale.git"    path="sources/meta-freescale"    remote="yocto" revision="32bbb02092c51547c679f66a2a0df31e0dc4108f"/>
+  <project name="meta-freescale.git"    path="sources/meta-freescale"    remote="yocto" revision="49ac225a38f6d84519798e3264f2e4d19b84f70a"/>
   <project name="meta-fsl-demos.git"    path="sources/meta-fsl-demos"    remote="fsl"   revision="0ec6d7e206705702b5b534611754de0787f92b72"/>
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe"    revision="a65c1acb1822966c3553de9fc98d8bb6be705c4e"/>
-  <project name="meta-qt5.git"          path="sources/meta-qt5"          remote="qt5"   revision="db881bb4917628ad3eb1fa7c4f27915cf2ae60f4"/>
+  <project name="meta-qt5.git"          path="sources/meta-qt5"          remote="qt5"   revision="32bb7d18a08d1c48873d7ab6332d4cc3815a4dff"/>
   <project name="meta-swupdate.git"     path="sources/meta-swupdate"     remote="swu"   revision="ca89e377482015ff9807179fc224cc2f5f9c65a6"/>
-  <project name="poky.git"              path="sources/poky"              remote="yocto" revision="342fbd6a3e57021c8e28b124b3adb241936f3d9d"/>
+  <project name="poky.git"              path="sources/poky"              remote="yocto" revision="fe2c3c59e3c7c98d1683a0aa81868b8696b1116b"/>
 </manifest>

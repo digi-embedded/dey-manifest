@@ -2,7 +2,7 @@
 <toolchains>
 	<!-- DEY 2.4-r2 -->
 	<!-- ConnectCore 8X SBC Pro -->
-        <toolchain>
+	<toolchain>
 		<dey-version>2.4-r2-20181213184040</dey-version>
 		<platform>ccimx8x-sbc-pro</platform>
 		<image-name>dey-image-qt-fb</image-name>
@@ -45,7 +45,7 @@
 		<dey-version>2.4-r2-20181214000229</dey-version>
 		<platform>ccimx6qpsbc</platform>
 		<image-name>dey-image-qt-fb</image-name>
-		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.4/r2/sdk/ccimx6qpsbc/fb/dey-glibc-x86_64-dey-image-qt-fb-	cortexa9hf-neon-toolchain-2.4-r2.sh</url>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/2.4/r2/sdk/ccimx6qpsbc/fb/dey-glibc-x86_64-dey-image-qt-fb-cortexa9hf-neon-toolchain-2.4-r2.sh</url>
 		<checksum>c7ec90c156c5ee94e7d55d1feadcccdc</checksum>
 	</toolchain>
 

@@ -9,7 +9,7 @@
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="7c6871bf07dcfc6807ce443f6938de102967162f">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="0078da95cb52f67e13c00131200299fd64a01d4b">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
   <project name="meta-freescale.git"    path="sources/meta-freescale"    remote="yocto" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92"/>

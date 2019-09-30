@@ -1,5 +1,79 @@
 <!-- DEY Toolchains file descriptor -->
 <toolchains>
+        <!-- DEY 2.6-r2 -->
+        <!-- ConnectCore 8X SBC Pro -->
+        <toolchain>
+                <dey-version>2.6-r2-20190926210056</dey-version>
+                <platform>ccimx8x-sbc-pro</platform>
+                <image-name>dey-image-qt-fb</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx8x-sbc-pro/fb/dey-glibc-x86_64-dey-image-qt-fb-aarch64-toolchain-2.6-r2.sh</url>
+                <checksum>16d648055f9c9ec629eba7f205e889d4</checksum>
+        </toolchain>
+        <toolchain>
+                <dey-version>2.6-r2-20190927112356</dey-version>
+                <platform>ccimx8x-sbc-pro</platform>
+                <image-name>dey-image-qt-xwayland</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx8x-sbc-pro/xwayland/dey-glibc-x86_64-dey-image-qt-xwayland-aarch64-toolchain-2.6-r2.sh</url>
+                <checksum>71e8dcb57804e9c1ffcc7aba387d2444</checksum>
+        </toolchain>
+
+        <!-- ConnectCore 6UL SBC Pro -->
+        <toolchain>
+                <dey-version>2.6-r2-20190927225314</dey-version>
+                <platform>ccimx6ulsbc</platform>
+                <image-name>dey-image-qt-x11</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6ulsbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa7t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>3b3286a679c649d116d3c3d5adcd1a98</checksum>
+        </toolchain>
+        <toolchain>
+                <dey-version>2.6-r2-20190927083035</dey-version>
+                <platform>ccimx6ulsbc</platform>
+                <image-name>dey-image-qt-fb</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6ulsbc/fb/dey-glibc-x86_64-dey-image-qt-fb-cortexa7t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>fca9f24abe565329ad64d5f4b46eb4c7</checksum>
+        </toolchain>
+
+        <!-- ConnectCore 6UL SBC Express -->
+        <toolchain>
+                <dey-version>2.6-r2-20190927095935</dey-version>
+                <platform>ccimx6ulstarter</platform>
+                <image-name>core-image-base</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-cortexa7t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>627a4a0ae3aab20e4520dcd7416a1db2</checksum>
+        </toolchain>
+
+        <!-- ConnectCore 6 -->
+        <toolchain>
+                <dey-version>2.6-r2-20190927195056</dey-version>
+                <platform>ccimx6sbc</platform>
+                <image-name>dey-image-qt-x11</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6sbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa9t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>86870cd8285ed85d64578ab083a6493f</checksum>
+        </toolchain>
+        <toolchain>
+                <dey-version>2.6-r2-20190927060708</dey-version>
+                <platform>ccimx6sbc</platform>
+                <image-name>dey-image-qt-fb</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6sbc/fb/dey-glibc-x86_64-dey-image-qt-fb-cortexa9t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>4e315c015310d5828366812a9195b9a7</checksum>
+        </toolchain>
+
+        <!-- ConnectCore 6 Plus -->
+        <toolchain>
+                <dey-version>2.6-r2-20190927163702</dey-version>
+                <platform>ccimx6qpsbc</platform>
+                <image-name>dey-image-qt-x11</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6qpsbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa9t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>4b35bf7bf52579e489641031cff03256</checksum>
+        </toolchain>
+        <toolchain>
+                <dey-version>2.6-r2-20190927025209</dey-version>
+                <platform>ccimx6qpsbc</platform>
+                <image-name>dey-image-qt-fb</image-name>
+                <url>http://ftp1.digi.com/support/digiembeddedyocto/2.6/r2/sdk/ccimx6qpsbc/fb/dey-glibc-x86_64-dey-image-qt-fb-cortexa9t2hf-neon-toolchain-2.6-r2.sh</url>
+                <checksum>09ba4819352dd2345f1f9334794c5f5f</checksum>
+        </toolchain>
+
 	<!-- DEY 2.6-r1 -->
         <!-- ConnectCore 8X SBC Pro -->
         <toolchain>

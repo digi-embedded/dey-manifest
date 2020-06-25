@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="8" revision="zeus"/>
+
+  <remote name="digi"  fetch="git://github.com/digi-embedded"/>
+  <remote name="fsl"   fetch="git://github.com/Freescale"/>
+  <remote name="qt5"   fetch="git://github.com/meta-qt5"/>
+  <remote name="swu"   fetch="git://github.com/sbabic"/>
+  <remote name="oe"    fetch="git://git.openembedded.org"/>
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="zeus">
+    <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
+  </project>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="zeus"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl"   revision="zeus"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="zeus"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="zeus"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="zeus"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="zeus"/>
+</manifest>

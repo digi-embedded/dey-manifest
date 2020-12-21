@@ -16,6 +16,6 @@
   <project name="meta-fsl-demos.git"    path="sources/meta-fsl-demos"    remote="fsl"   revision="thud"/>
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe"    revision="thud"/>
   <project name="meta-qt5.git"          path="sources/meta-qt5"          remote="qt5"   revision="thud"/>
-  <project name="meta-swupdate.git"     path="sources/meta-swupdate"     remote="swu"   revision="thud"/>
+  <project name="meta-swupdate.git"     path="sources/meta-swupdate"     remote="swu"   revision="bfe8133749c8bd444aab2372f1dd737eb35454c3"/>
   <project name="poky.git"              path="sources/poky"              remote="yocto" revision="thud"/>
 </manifest>

@@ -15,6 +15,7 @@
   <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="zeus"/>
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl"   revision="zeus"/>
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="zeus"/>
+  <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="zeus"/>
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="zeus"/>
   <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="zeus"/>
   <project name="poky.git" path="sources/poky" remote="yocto" revision="zeus"/>

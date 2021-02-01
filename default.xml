@@ -18,7 +18,7 @@
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="zeus"/>
   <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="zeus"/>
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="zeus"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="zeus"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="8ad6a75e1778cdda671b3d6aea2a9692613020ec"/>
   <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="zeus"/>
   <project name="poky.git" path="sources/poky" remote="yocto" revision="zeus"/>
 </manifest>

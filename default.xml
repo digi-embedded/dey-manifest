@@ -5,6 +5,7 @@
   <remote name="digi"  fetch="git://github.com/digi-embedded"/>
   <remote name="fsl"   fetch="git://github.com/Freescale"/>
   <remote name="igl"   fetch="git://github.com/Igalia"/>
+  <remote name="nxp"   fetch="git://source.codeaurora.org/external/imx"/>
   <remote name="qt5"   fetch="git://github.com/meta-qt5"/>
   <remote name="swu"   fetch="git://github.com/sbabic"/>
   <remote name="oe"    fetch="git://git.openembedded.org"/>
@@ -15,6 +16,7 @@
   </project>
   <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="zeus"/>
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl"   revision="zeus"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="zeus-5.4.70-2.3.1"/>
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="zeus"/>
   <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="zeus"/>
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="zeus"/>

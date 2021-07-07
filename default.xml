@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="8" revision="gatesgarth"/>
+  <remote name="digi"  fetch="git://github.com/digi-embedded"/>
+  <remote name="fsl"   fetch="git://github.com/Freescale"/>
+  <remote name="igl"   fetch="git://github.com/Igalia"/>
+  <remote name="nxp"   fetch="git://source.codeaurora.org/external/imx"/>
+  <remote name="qt5"   fetch="git://github.com/meta-qt5"/>
+  <remote name="swu"   fetch="git://github.com/sbabic"/>
+  <remote name="oe"    fetch="git://git.openembedded.org"/>
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="gatesgarth">
+    <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
+  </project>
+  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="gatesgarth"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="gatesgarth"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="gatesgarth"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="gatesgarth-5.10.9-1.0.0"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="gatesgarth"/>
+  <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="gatesgarth"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="gatesgarth"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="gatesgarth"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="gatesgarth"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="gatesgarth"/>
+</manifest>

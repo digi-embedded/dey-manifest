@@ -13,7 +13,7 @@
   <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="aa92d2d13acf35a5ffc04a7e8b74a5096b2b0b7a">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="94a929eedb076b1d029f80e36804d557f82984f4"/>
+  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="3395eb177cfb54cd7b6296201cfe51e1ab18c3d0"/>
   <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="d5a82541a97dd3a6b9116a1cd72f9965510a3de9"/>
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="50eb2b32e7702bc435049bfe0a98fc65c864c106"/>
   <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="05a543c0b57d0d326a8b0075afd561419cbc9c46"/>

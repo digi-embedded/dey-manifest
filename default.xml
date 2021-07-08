@@ -10,17 +10,17 @@
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="aa92d2d13acf35a5ffc04a7e8b74a5096b2b0b7a">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="gatesgarth">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="3395eb177cfb54cd7b6296201cfe51e1ab18c3d0"/>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="d5a82541a97dd3a6b9116a1cd72f9965510a3de9"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="50eb2b32e7702bc435049bfe0a98fc65c864c106"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="05a543c0b57d0d326a8b0075afd561419cbc9c46"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="f3f7a5f1a4713f145107bb043e0d14cb3a51c62f"/>
-  <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="3fae17aece0e6d82f56965fe501bf7080c671df8"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="c8ef46c77272b732705165eefdf7a67ce93e5c09"/>
-  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="520d4652d4449fefd8345a58ee00ed84da17fb1e"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="6a751048e50c00261d99c2d8d69534f7a8da38a9"/>
+  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="gatesgarth"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="gatesgarth"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="gatesgarth"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="gatesgarth-5.10.9-1.0.0"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="gatesgarth"/>
+  <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="gatesgarth"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="gatesgarth"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="gatesgarth"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="gatesgarth"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="gatesgarth"/>
 </manifest>

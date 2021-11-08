@@ -2,20 +2,20 @@
 <manifest>
   <default sync-j="4" revision="rocko"/>
 
-  <remote name="digi"  fetch="git://github.com/digi-embedded"/>
-  <remote name="fsl"   fetch="git://github.com/Freescale"/>
-  <remote name="qt5"   fetch="git://github.com/meta-qt5"/>
-  <remote name="swu"   fetch="git://github.com/sbabic"/>
-  <remote name="oe"    fetch="git://git.openembedded.org"/>
-  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="digi"  fetch="https://github.com/digi-embedded"/>
+  <remote name="fsl"   fetch="https://github.com/Freescale"/>
+  <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
+  <remote name="swu"   fetch="https://github.com/sbabic"/>
+  <remote name="oe"    fetch="https://git.openembedded.org"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="rocko">
+  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="rocko">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-freescale.git"    path="sources/meta-freescale"    remote="yocto" revision="rocko"/>
-  <project name="meta-fsl-demos.git"    path="sources/meta-fsl-demos"    remote="fsl"   revision="rocko"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe"    revision="rocko"/>
-  <project name="meta-qt5.git"          path="sources/meta-qt5"          remote="qt5"   revision="rocko"/>
-  <project name="meta-swupdate.git"     path="sources/meta-swupdate"     remote="swu"   revision="rocko"/>
-  <project name="poky.git"              path="sources/poky"              remote="yocto" revision="rocko"/>
+  <project name="meta-freescale"    path="sources/meta-freescale"    remote="yocto" revision="rocko"/>
+  <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="rocko"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="rocko"/>
+  <project name="meta-qt5"          path="sources/meta-qt5"          remote="qt5"   revision="rocko"/>
+  <project name="meta-swupdate"     path="sources/meta-swupdate"     remote="swu"   revision="rocko"/>
+  <project name="poky"              path="sources/poky"              remote="yocto" revision="rocko"/>
 </manifest>

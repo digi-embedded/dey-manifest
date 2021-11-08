@@ -2,20 +2,20 @@
 <manifest>
   <default sync-j="4" revision="jethro"/>
 
-  <remote name="digi"  fetch="git://github.com/digi-embedded"/>
-  <remote name="fsl"   fetch="git://github.com/Freescale"/>
-  <remote name="qt5"   fetch="git://github.com/meta-qt5"/>
-  <remote name="swu"   fetch="git://github.com/sbabic"/>
-  <remote name="oe"    fetch="git://git.openembedded.org"/>
-  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="digi"  fetch="https://github.com/digi-embedded"/>
+  <remote name="fsl"   fetch="https://github.com/Freescale"/>
+  <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
+  <remote name="swu"   fetch="https://github.com/sbabic"/>
+  <remote name="oe"    fetch="https://git.openembedded.org"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="0281bd633aaec62d9f9b36d1b58e9b7781277c02">
+  <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="0281bd633aaec62d9f9b36d1b58e9b7781277c02">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-fsl-arm.git"      path="sources/meta-fsl-arm"      remote="yocto" revision="417f669e4dede244a81e11aa6d8b60c4e333e589"/>
-  <project name="meta-fsl-demos.git"    path="sources/meta-fsl-demos"    remote="fsl"   revision="8bffde8d803dd2362fbded79781ce084d723b048"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe"    revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1"/>
-  <project name="meta-qt5.git"          path="sources/meta-qt5"          remote="qt5"   revision="ea37a0bc987aa9484937ad68f762b4657c198617"/>
-  <project name="meta-swupdate.git"     path="sources/meta-swupdate"     remote="swu"   revision="de08e6f72c6c90bec6ee5138f87959ad88461e84"/>
-  <project name="poky.git"              path="sources/poky"              remote="yocto" revision="ac4d3fca189c8b6b54647ccfca37c812aad98149"/>
+  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="417f669e4dede244a81e11aa6d8b60c4e333e589"/>
+  <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="8bffde8d803dd2362fbded79781ce084d723b048"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1"/>
+  <project name="meta-qt5"          path="sources/meta-qt5"          remote="qt5"   revision="ea37a0bc987aa9484937ad68f762b4657c198617"/>
+  <project name="meta-swupdate"     path="sources/meta-swupdate"     remote="swu"   revision="de08e6f72c6c90bec6ee5138f87959ad88461e84"/>
+  <project name="poky"              path="sources/poky"              remote="yocto" revision="ac4d3fca189c8b6b54647ccfca37c812aad98149"/>
 </manifest>

@@ -2,12 +2,12 @@
 <manifest>
   <default sync-j="8" revision="zeus"/>
 
-  <remote name="digi"  fetch="git://github.com/digi-embedded"/>
-  <remote name="fsl"   fetch="git://github.com/Freescale"/>
-  <remote name="igl"   fetch="git://github.com/Igalia"/>
+  <remote name="digi"  fetch="https://github.com/digi-embedded"/>
+  <remote name="fsl"   fetch="https://github.com/Freescale"/>
+  <remote name="igl"   fetch="https://github.com/Igalia"/>
   <remote name="nxp"   fetch="git://source.codeaurora.org/external/imx"/>
-  <remote name="qt5"   fetch="git://github.com/meta-qt5"/>
-  <remote name="swu"   fetch="git://github.com/sbabic"/>
+  <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
+  <remote name="swu"   fetch="https://github.com/sbabic"/>
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 

@@ -17,5 +17,5 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="morty"/>
   <project name="meta-qt5"          path="sources/meta-qt5"          remote="qt5"   revision="morty"/>
   <project name="meta-swupdate"     path="sources/meta-swupdate"     remote="swu"   revision="morty"/>
-  <project name="poky"              path="sources/poky"              remote="yocto" revision="morty"/>
+  <project name="poky"              path="sources/poky"              remote="digi"  revision="morty"/>
 </manifest>

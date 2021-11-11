@@ -17,5 +17,5 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="2ea8d7f54a061e902657c4f8ea1f7f7c25c6c4e1"/>
   <project name="meta-qt5"          path="sources/meta-qt5"          remote="qt5"   revision="ea37a0bc987aa9484937ad68f762b4657c198617"/>
   <project name="meta-swupdate"     path="sources/meta-swupdate"     remote="swu"   revision="de08e6f72c6c90bec6ee5138f87959ad88461e84"/>
-  <project name="poky"              path="sources/poky"              remote="yocto" revision="ac4d3fca189c8b6b54647ccfca37c812aad98149"/>
+  <project name="poky"              path="sources/poky"              remote="digi"  revision="ac4d3fca189c8b6b54647ccfca37c812aad98149"/>
 </manifest>

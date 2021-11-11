@@ -3,6 +3,7 @@
   <default sync-j="4" revision="daisy"/>
 
   <remote name="digi"  fetch="https://github.com/digidotcom"/>
+  <remote name="emb"   fetch="https://github.com/digi-embedded"/>
   <remote name="fsl"   fetch="https://github.com/Freescale"/>
   <remote name="oe"    fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
@@ -13,5 +14,5 @@
   <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="0c4de80867c3ab4e9682dd7802d3fd907d1e1a23"/>
   <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="f141c7d1158b8addbd6f1ed047a1b47c2ed85f8f"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="d3d14d3fcca7fcde362cf0b31411dc4eea6d20aa"/>
-  <project name="poky"              path="sources/poky"              remote="yocto" revision="6717d19848cf6211e7d791078bb18a87dd39d191"/>
+  <project name="poky"              path="sources/poky"              remote="emb"   revision="6717d19848cf6211e7d791078bb18a87dd39d191"/>
 </manifest>

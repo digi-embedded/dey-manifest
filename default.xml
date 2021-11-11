@@ -17,5 +17,5 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="rocko"/>
   <project name="meta-qt5"          path="sources/meta-qt5"          remote="qt5"   revision="rocko"/>
   <project name="meta-swupdate"     path="sources/meta-swupdate"     remote="swu"   revision="rocko"/>
-  <project name="poky"              path="sources/poky"              remote="yocto" revision="rocko"/>
+  <project name="poky"              path="sources/poky"              remote="digi"  revision="rocko"/>
 </manifest>

@@ -6,12 +6,11 @@
   <remote name="emb"   fetch="https://github.com/digi-embedded"/>
   <remote name="fsl"   fetch="https://github.com/Freescale"/>
   <remote name="oe"    fetch="https://git.openembedded.org"/>
-  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
   <project name="meta-digi" path="sources/meta-digi" remote="digi" revision="dylan">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="yocto" revision="dylan"/>
+  <project name="meta-fsl-arm"      path="sources/meta-fsl-arm"      remote="fsl"   revision="dylan"/>
   <project name="meta-fsl-demos"    path="sources/meta-fsl-demos"    remote="fsl"   revision="dylan"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe"    revision="dylan"/>
   <project name="poky"              path="sources/poky"              remote="emb"   revision="dylan"/>

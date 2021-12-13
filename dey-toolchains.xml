@@ -1,5 +1,69 @@
 <!-- DEY Toolchains file descriptor -->
 <toolchains>
+	<!-- DEY 3.2-r2 -->
+	<!-- ConnectCore 8M Mini DVK -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210102601</dey-version>
+		<platform>ccimx8mm-dvk</platform>
+		<image-name>dey-image-qt-xwayland</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx8mm-dvk/xwayland/dey-glibc-x86_64-dey-image-qt-xwayland-aarch64-ccimx8mm-dvk-toolchain-3.2-r2.sh</url>
+		<checksum>242a63b2fdf7df6a35b5f159a0daa1fb</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 8M Nano DVK -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210104751</dey-version>
+		<platform>ccimx8mn-dvk</platform>
+		<image-name>dey-image-qt-xwayland</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx8mn-dvk/xwayland/dey-glibc-x86_64-dey-image-qt-xwayland-aarch64-ccimx8mn-dvk-toolchain-3.2-r2.sh</url>
+		<checksum>202d321f82cc1e1826b6bb49e1a4d2e8</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 8X SBC Pro -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210102901</dey-version>
+		<platform>ccimx8x-sbc-pro</platform>
+		<image-name>dey-image-qt-xwayland</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx8x-sbc-pro/xwayland/dey-glibc-x86_64-dey-image-qt-xwayland-aarch64-ccimx8x-sbc-pro-toolchain-3.2-r2.sh</url>
+		<checksum>2b2c31d5e7a1a43dace621549a6f868b</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6UL SBC Pro -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210122137</dey-version>
+		<platform>ccimx6ulsbc</platform>
+		<image-name>dey-image-qt-x11</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx6ulsbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa7t2hf-neon-ccimx6ulsbc-toolchain-3.2-r2.sh</url>
+		<checksum>ca6ae995900ef14b53c896bd0b6c32fd</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6UL SBC Express -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210121717</dey-version>
+		<platform>ccimx6ulstarter</platform>
+		<image-name>core-image-base</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-cortexa7t2hf-neon-ccimx6ulstarter-toolchain-3.2-r2.sh</url>
+		<checksum>2f21541f088ac0ed61ce5acb4619b8c9</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6 Plus SBC -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210134117</dey-version>
+		<platform>ccimx6qpsbc</platform>
+		<image-name>dey-image-qt-xwayland</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx6qpsbc/xwayland/dey-glibc-x86_64-dey-image-qt-xwayland-cortexa9t2hf-neon-ccimx6qpsbc-toolchain-3.2-r2.sh</url>
+		<checksum>e6ca5a81a2e39b0946cc1f8087c6289c</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6 SBC -->
+	<toolchain>
+		<dey-version>3.2-r2-20211210132241</dey-version>
+		<platform>ccimx6sbc</platform>
+		<image-name>dey-image-qt-xwayland</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/3.2/r2/sdk/ccimx6sbc/xwayland/dey-glibc-x86_64-dey-image-qt-xwayland-cortexa9t2hf-neon-ccimx6sbc-toolchain-3.2-r2.sh</url>
+		<checksum>2077dcf053fa56b76d8eb47cdb7cc97b</checksum>
+	</toolchain>
+
         <!-- DEY 3.2-r1 -->
         <!-- ConnectCore 8M Mini DVK -->
         <toolchain>

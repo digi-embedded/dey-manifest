@@ -7,6 +7,7 @@
   <remote name="nxp"   fetch="git://source.codeaurora.org/external/imx"/>
   <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
   <remote name="swu"   fetch="https://github.com/sbabic"/>
+  <remote name="timesys" fetch="https://github.com/TimesysGit"/>
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
@@ -22,6 +23,7 @@
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="gatesgarth"/>
   <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="gatesgarth"/>
   <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="gatesgarth"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="gatesgarth"/>
   <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="gatesgarth"/>
   <project name="poky.git" path="sources/poky" remote="yocto" revision="gatesgarth"/>
 </manifest>

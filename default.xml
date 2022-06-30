@@ -11,19 +11,19 @@
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="9350358f5b0815971d2086d12524a9924a96cfd8">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="gatesgarth">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="5c68453a2da23e46bcab89881b892a4149765962"/>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="d5a82541a97dd3a6b9116a1cd72f9965510a3de9"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="50eb2b32e7702bc435049bfe0a98fc65c864c106"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="cc3245a7c918f0e88993c88bcd21f4178c1d2fea"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="f3f7a5f1a4713f145107bb043e0d14cb3a51c62f"/>
-  <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="3fae17aece0e6d82f56965fe501bf7080c671df8"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="5d70466cc7d74369956dceacdfd89f41516860d0"/>
-  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="a5938609e1f8dbc969560c851e3ef5eb91e0845e"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="744d6b96fc0290a7df9045e60c734c4924abfd4a"/>
-  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="5347f108f470eb65f9f9b41788a3cb516688a8a2"/>
-  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="1f8554cc9fa04195df1020ab949b032fc987124e"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="13143ea85a1ab7703825c0673128c05845b96cb5"/>
+  <project name="meta-digi-dualboot.git" path="sources/meta-digi-dualboot" remote="digi" revision="gatesgarth"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="gatesgarth"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="gatesgarth"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="gatesgarth-5.10.9-1.0.0"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="gatesgarth"/>
+  <project name="meta-python2.git" path="sources/meta-python2" remote="oe" revision="gatesgarth"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="gatesgarth"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="gatesgarth"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="gatesgarth"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="gatesgarth"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="gatesgarth"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="gatesgarth"/>
 </manifest>

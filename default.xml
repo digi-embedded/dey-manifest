@@ -4,7 +4,7 @@
   <remote name="digi"  fetch="https://github.com/digi-embedded"/>
   <remote name="fsl"   fetch="https://github.com/Freescale"/>
   <remote name="igl"   fetch="https://github.com/Igalia"/>
-  <remote name="nxp"   fetch="https://source.codeaurora.org/external/imx"/>
+  <remote name="nxp"   fetch="https://github.com/nxp-imx"/>
   <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
   <remote name="swu"   fetch="https://github.com/sbabic"/>
   <remote name="stm"   fetch="https://github.com/STMicroelectronics"/>
@@ -13,19 +13,19 @@
   <remote name="oe"    fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="5209a3db06bb1c6a7dc259153a600c8ed4a99160">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="dad34f1006f7b0fc780c09d315f46f00022a4b01">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="9a0bc6866169c14af4b9c9d02ed1e555cf088764"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="ecd571288e41a8b6195f226b61be330072e42f81"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="5bc708f56575a878da17f2148e959c95d06cf8db"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="3747641f1e71d8e4edd5b587b49d09dc2d243942"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="d5bbb487b2816dfc74984a78b67f7361ce404253"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="4411ea5fdf84f21dd9948977d0eed788a3949021"/>
   <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="1becb4e422555dc9735c65cc0a0f0d2d534bcc43"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="05dcac98473402d87e0af73bbc2c5a6a840abe93"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="5b71df60e523423b9df6793de9387f87a149ac42"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="44d44933200287f7d17cf6981af4b4a0961c308d"/>
   <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="26f995497e58d9bd55d4cf842ed27c3c0d1c3a84"/>
-  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="90fb5c3f812839072abd3a55c69074e8ab621084"/>
-  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="863d0cf75859d178a1cbf01afdda0de81aa38003"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="76ceada1d1510b2e7dacad888ae2b8b463c92219"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="4d03b3bd68eb3df01ce99935e1e2939b53eb8ad4"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="9039111619e02ce853f23aa2b68ff3c544c90e07"/>
   <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="236ed72a63eea0b67b7bd7f6f78be850cf14b4e8"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="e81e703fb6fd028f5d01488a62dcfacbda16aa9e"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="2e79b199114b25d81bfaa029ccfb17676946d20d"/>
 </manifest>

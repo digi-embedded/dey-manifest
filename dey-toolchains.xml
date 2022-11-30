@@ -1,5 +1,33 @@
 <!-- DEY Toolchains file descriptor -->
 <toolchains>
+	<!-- DEY 4.0-r1 -->
+	<!-- ConnectCore MP15 DVK -->
+	<toolchain>
+		<dey-version>4.0-r1-20221129173209</dey-version>
+		<platform>ccmp15-dvk</platform>
+		<image-name>dey-image-qt-wayland</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/4.0/r1/sdk/ccmp15-dvk/wayland/dey-glibc-x86_64-dey-image-qt-wayland-cortexa7t2hf-neon-vfpv4-ccmp15-dvk-toolchain-4.0-r1.sh</url>
+		<checksum>095fae262d16e48d98e2980d390e6449</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6UL SBC Pro -->
+	<toolchain>
+		<dey-version>4.0-r1-20221129174515</dey-version>
+		<platform>ccimx6ulsbc</platform>
+		<image-name>dey-image-qt-x11</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/4.0/r1/sdk/ccimx6ulsbc/x11/dey-glibc-x86_64-dey-image-qt-x11-cortexa7t2hf-neon-ccimx6ulsbc-toolchain-4.0-r1.sh</url>
+		<checksum>18034ff6cf4af0d793ae3e371ba06398</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6UL SBC Express -->
+	<toolchain>
+		<dey-version>4.0-r1-20221129164601</dey-version>
+		<platform>ccimx6ulstarter</platform>
+		<image-name>core-image-base</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/4.0/r1/sdk/ccimx6ulstarter/fb/dey-glibc-x86_64-core-image-base-cortexa7t2hf-neon-ccimx6ulstarter-toolchain-4.0-r1.sh</url>
+		<checksum>63823544b95948af83476a61e4bc0ee1</checksum>
+	</toolchain>
+
 	<!-- DEY 3.2-r3 -->
 	<!-- ConnectCore 8M Mini DVK -->
 		<toolchain>

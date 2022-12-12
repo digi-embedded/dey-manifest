@@ -16,9 +16,9 @@
   <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="kirkstone">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="5d5d2822c3381b3a337b267ce1ec92c87e1b87a3"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="kirkstone"/>
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="kirkstone"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="kirkstone-5.15.52-2.1.0"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="kirkstone-5.15.71-2.2.0"/>
   <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="1becb4e422555dc9735c65cc0a0f0d2d534bcc43"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone"/>
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="kirkstone"/>

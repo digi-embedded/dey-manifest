@@ -6,6 +6,7 @@
   <remote name="igl"   fetch="https://github.com/Igalia"/>
   <remote name="nxp"   fetch="https://github.com/nxp-imx"/>
   <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
+  <remote name="qt6"   fetch="https://code.qt.io/yocto"/>
   <remote name="swu"   fetch="https://github.com/sbabic"/>
   <remote name="stm"   fetch="https://github.com/STMicroelectronics"/>
   <remote name="timesys" fetch="https://github.com/TimesysGit"/>
@@ -22,6 +23,7 @@
   <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="kirkstone"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone"/>
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="kirkstone"/>
+  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.3"/>
   <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="kirkstone"/>
   <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="kirkstone"/>
   <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="kirkstone"/>

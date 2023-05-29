@@ -21,6 +21,7 @@
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="kirkstone"/>
   <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="kirkstone-5.15.71-2.2.0"/>
   <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="kirkstone"/>
+  <project name="meta-st-stm32mpu-ai.git" path="sources/meta-st-stm32mpu-ai" remote="stm" revision="kirkstone"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone"/>
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="kirkstone"/>
   <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.3"/>

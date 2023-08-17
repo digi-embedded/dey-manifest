@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="8" revision="kirkstone"/>
+  <remote name="digi"  fetch="https://github.com/digi-embedded"/>
+  <remote name="fsl"   fetch="https://github.com/Freescale"/>
+  <remote name="igl"   fetch="https://github.com/Igalia"/>
+  <remote name="nxp"   fetch="https://github.com/nxp-imx"/>
+  <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
+  <remote name="qt6"   fetch="https://code.qt.io/yocto"/>
+  <remote name="swu"   fetch="https://github.com/sbabic"/>
+  <remote name="stm"   fetch="https://github.com/STMicroelectronics"/>
+  <remote name="timesys" fetch="https://github.com/TimesysGit"/>
+  <remote name="wlf"   fetch="https://github.com/wolfSSL"/>
+  <remote name="oe"    fetch="https://git.openembedded.org"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="kirkstone_cc8x-cc6-beta">
+    <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
+  </project>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="kirkstone"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="kirkstone"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="kirkstone-5.15.71-2.2.0"/>
+  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="kirkstone"/>
+  <project name="meta-st-stm32mpu-ai.git" path="sources/meta-st-stm32mpu-ai" remote="stm" revision="kirkstone"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="kirkstone"/>
+  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.3"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="kirkstone"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="kirkstone"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="kirkstone"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="kirkstone"/>
+  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="kirkstone"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="kirkstone"/>
+</manifest>

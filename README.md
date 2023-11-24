@@ -34,15 +34,6 @@ $ repo init -u https://github.com/digi-embedded/dey-manifest.git -b kirkstone
 $ repo sync -j8 --no-repo-verify
 ```
 
----
-**NOTE**: to build ccimx8x or ccimx6 beta projects, use *cc8x-cc6-beta.xml* manifest instead:
-
-```
-$ repo init -u https://github.com/digi-embedded/dey-manifest.git -b kirkstone -m cc8x-cc6-beta.xml
-$ repo sync -j8 --no-repo-verify
-```
----
-
 More information about [Digi Embedded Yocto](https://github.com/digi-embedded/meta-digi).
 
 License

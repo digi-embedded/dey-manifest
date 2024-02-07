@@ -14,21 +14,21 @@
   <remote name="oe"    fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="bdf80833dc37248aece788617a624afdfb8e9fc8">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="kirkstone">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="710e55d529c86d15a93c4421365ef62eb601a49b"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="d5bbb487b2816dfc74984a78b67f7361ce404253"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="9174c61f4dc80b14e0bfdaec9200ed58fb41615f"/>
-  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="311a492c21f0f3643f4b764f8b743c4c6908d31b"/>
-  <project name="meta-st-stm32mpu-ai.git" path="sources/meta-st-stm32mpu-ai" remote="stm" revision="3e5c19e9ba4ef5740e026f0cda4c77e3814fe967"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="730e44900a0a86265bad93a16b5a5ff344a07266"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="fe0bf7f0e5408aac6cc89ff3b19b1b1941df4f64"/>
-  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="2e751503e1c37d864b87afee211347d60a055766"/>
-  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="a401f4b2816a0b41ce8d9351542658c721935bcd"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="996ad9be9b5ab378bc2f33a9d3b5ad6c3335f898"/>
-  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="c6b62bb21ab6c525ab9893d95754cd9b1adeca91"/>
-  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="63ccde7bc228bb5641810acc02953197cdb89b2f"/>
-  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="15ad4b98d7321c6cf912105b93aacc3c76252b9a"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="54af8c5e80ebf63707ef4e51cc9d374f716da603"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="kirkstone"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="kirkstone"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="kirkstone-5.15.71-2.2.0"/>
+  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="kirkstone"/>
+  <project name="meta-st-stm32mpu-ai.git" path="sources/meta-st-stm32mpu-ai" remote="stm" revision="kirkstone"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="kirkstone"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="kirkstone"/>
+  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.5"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="kirkstone"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="kirkstone"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="kirkstone"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="kirkstone"/>
+  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="kirkstone"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="kirkstone"/>
 </manifest>

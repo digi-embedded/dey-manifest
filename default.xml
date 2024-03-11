@@ -28,6 +28,7 @@
   <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="kirkstone"/>
   <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="kirkstone"/>
   <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="kirkstone"/>
+  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="kirkstone"/>
   <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="kirkstone"/>
   <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="kirkstone"/>
   <project name="poky.git" path="sources/poky" remote="yocto" revision="kirkstone"/>

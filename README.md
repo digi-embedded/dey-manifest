@@ -34,11 +34,18 @@ $ repo init -u https://github.com/digi-embedded/dey-manifest.git -b kirkstone
 $ repo sync -j8 --no-repo-verify
 ```
 
+**NOTE**: to build ccmp25 or ccimx91 beta projects, use *ccmp2-cc91-beta.xml* manifest instead:
+
+```
+$ repo init -u https://github.com/digi-embedded/dey-manifest.git -b kirkstone -m ccmp2-cc91-beta.xml
+$ repo sync -j8 --no-repo-verify
+```
+
 More information about [Digi Embedded Yocto](https://github.com/digi-embedded/meta-digi).
 
 License
 -------
-Copyright 2022, Digi International Inc.
+Copyright 2022-2024, Digi International Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -14,22 +14,22 @@
   <remote name="oe"    fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="scarthgap">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="8180e53e83c3f6aab2449db9da2eb246b3c5fa6d">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="scarthgap"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="scarthgap"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="scarthgap-6.6.52-2.2.0"/>
-  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="scarthgap"/>
-  <project name="meta-st-x-linux-ai.git" path="sources/meta-st-x-linux-ai" remote="stm" revision="scarthgap"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="scarthgap"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="scarthgap"/>
-  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.8"/>
-  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="scarthgap"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="scarthgap"/>
-  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="scarthgap"/>
-  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="scarthgap"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="c614b50aa1b326fed30302d33bfa269400d6e60e"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="219f6d04a4c339eb6f2dc626f944bbdf9a716ff5"/>
+  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="b73bad826ff491d009cf46514ad63c02a3dd242f"/>
+  <project name="meta-st-x-linux-ai.git" path="sources/meta-st-x-linux-ai" remote="stm" revision="fd081e1d242c292aff44fedc42f74f5a81ec3190"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="4f11a12b2352bbdfafb6b7d956bf424af4992977"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="eb828418264a49b8d00035cb3d7b12fcea3be801"/>
+  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="f850801b80b0f2b101fa5653a80a71ae4d1e3825"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="3aff015697fa056b4af83b1c9ba44eca346a8a37"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="d598d4e675b541301ea1dfc8f0c8931983b4dcd0"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="4dc3f4bdfde4a86904b6e1a3d58df4696e7a63fa"/>
+  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="79673f5c67b022e7aadeb231872470295e5b9188"/>
   <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="7c6d6529d0d06956bdfe4f7096faf146d949b086"/>
-  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="kirkstone"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="scarthgap"/>
+  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="226eba29e4750c007ad5052e26d3a6f32bb9e689"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="2afaed1013190d7f54a5346bfca69e92bdb2ed83"/>
 </manifest>

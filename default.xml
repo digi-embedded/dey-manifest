@@ -16,24 +16,24 @@
   <remote name="oe"    fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="scarthgap">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="b2eb7a5825f4871293fe86801a29a08f98c6e90a">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="scarthgap"/>
-  <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="scarthgap"/>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="scarthgap"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="scarthgap"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="scarthgap-6.6.52-2.2.0"/>
+  <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="aef850f7fa53121c74b244b7ae40d31fb9809ccf"/>
+  <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="a5d163c43722d358d21fdbca4920e42a45042c5c"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="a82f138b140f613a06bf9ac60101e4bb511c309f"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="013670cd6a6a7363d824b33816e87a520745bca4"/>
   <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="74cfa6813688bbbaea178ce885056c367671bb7f"/>
   <project name="meta-st-x-linux-ai.git" path="sources/meta-st-x-linux-ai" remote="stm" revision="d40bcbe2b804b70b4c5bb959b3e3fd15973cd663"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="scarthgap"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="scarthgap"/>
-  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.8"/>
-  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="scarthgap"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="scarthgap"/>
-  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="scarthgap"/>
-  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="scarthgap"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="e8fd97d86af86cdcc5a6eb3f301cbaf6a2084943"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="554fc20c326a9b205169331644f0cb471619e63c"/>
+  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="c58fdf7af5d92f5dc0a3446a9865580511ae8691"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="30a49ab1298d2a081089a9e4c760a9e02f8100f6"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="43ef322cbf5b91d84b007c343cf73e9b01699594"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="4908bab3d832df11f61dd6090fea909f799dd7b0"/>
+  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="a5449c0c50aa07d02186f548fe6bb6c1ce8823dc"/>
   <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="7c6d6529d0d06956bdfe4f7096faf146d949b086"/>
-  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="master"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="scarthgap"/>
+  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="b31998f4cbd8b5c413115acc0f6a73a605ff3e0c"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="ae2d52758fc2fcb0ed996aa234430464ebf4b310"/>
 </manifest>

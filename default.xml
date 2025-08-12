@@ -21,7 +21,7 @@
   </project>
   <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="scarthgap"/>
   <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="scarthgap"/>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="scarthgap"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="a82f138b140f613a06bf9ac60101e4bb511c309f"/>
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="scarthgap"/>
   <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="scarthgap-6.6.52-2.2.0"/>
   <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="74cfa6813688bbbaea178ce885056c367671bb7f"/>

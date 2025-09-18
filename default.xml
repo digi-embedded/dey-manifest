@@ -19,6 +19,7 @@
   <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="scarthgap">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
+  <project name="meta-arm.git" path="sources/meta-arm" remote="yocto" revision="scarthgap"/>
   <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="scarthgap"/>
   <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="scarthgap"/>
   <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="a82f138b140f613a06bf9ac60101e4bb511c309f"/>

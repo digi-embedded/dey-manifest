@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <default sync-j="8" revision="scarthgap"/>
+  <remote name="browser" fetch="https://github.com/OSSystems"/>
   <remote name="clang"   fetch="https://github.com/kraj"/>
   <remote name="digi"  fetch="https://github.com/digi-embedded"/>
   <remote name="flutter" fetch="https://github.com/meta-flutter"/>
@@ -20,6 +21,7 @@
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
   <project name="meta-arm.git" path="sources/meta-arm" remote="yocto" revision="scarthgap"/>
+  <project name="meta-browser.git" path="sources/meta-browser" remote="browser" revision="f988d616d37ddf160d3d747ed54d0a66d549f499"/>
   <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="scarthgap"/>
   <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="scarthgap"/>
   <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="a82f138b140f613a06bf9ac60101e4bb511c309f"/>

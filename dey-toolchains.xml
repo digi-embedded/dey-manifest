@@ -1,5 +1,123 @@
 <!-- DEY Toolchains file descriptor -->
 <toolchains>
+	<!-- DEY 5.0-r3 -->
+	<!-- ConnectCore 95 DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217150545</dey-version>
+		<platform>ccimx95-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx95-dvk/xwayland/dey-toolchain-ccimx95-dvk-5.0-r3.sh</url>
+		<checksum>adff6a1030bbca405159a2e1871a3658</checksum>
+	</toolchain>
+
+	<!-- ConnectCore MP25 DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217134147</dey-version>
+		<platform>ccmp25-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccmp25-dvk/wayland/dey-toolchain-ccmp25-dvk-5.0-r3.sh</url>
+		<checksum>0285575d1cafa789512ab1603122c1dc</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 91 DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251216221839</dey-version>
+		<platform>ccimx91-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx91-dvk/fb/dey-toolchain-ccimx91-dvk-5.0-r3.sh</url>
+		<checksum>230e6cb7e79bca3883b02f3eecf159ff</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 93 DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251216211011</dey-version>
+		<platform>ccimx93-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx93-dvk/xwayland/dey-toolchain-ccimx93-dvk-5.0-r3.sh</url>
+		<checksum>9f8c687bd7ab56afc00404eaf51e67e2</checksum>
+	</toolchain>
+
+	<!-- ConnectCore MP13 DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251216181507</dey-version>
+		<platform>ccmp13-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccmp13-dvk/fb/dey-toolchain-ccmp13-dvk-5.0-r3.sh</url>
+		<checksum>417843207c5431cb0bbf596f2553fbb8</checksum>
+	</toolchain>
+
+	<!-- ConnectCore MP15 DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251216210833</dey-version>
+		<platform>ccmp15-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccmp15-dvk/wayland/dey-toolchain-ccmp15-dvk-5.0-r3.sh</url>
+		<checksum>74985189c06293355a1e0e3aef67d582</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 8M Mini DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217040105</dey-version>
+		<platform>ccimx8mm-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx8mm-dvk/xwayland/dey-toolchain-ccimx8mm-dvk-5.0-r3.sh</url>
+		<checksum>0b967c2baad85ff85d835d41848a2d04</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 8M Nano DVK -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217131844</dey-version>
+		<platform>ccimx8mn-dvk</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx8mn-dvk/xwayland/dey-toolchain-ccimx8mn-dvk-5.0-r3.sh</url>
+		<checksum>2868e28d20e74a3035d1d09420141232</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 8X SBC Pro -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217124447</dey-version>
+		<platform>ccimx8x-sbc-pro</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx8x-sbc-pro/xwayland/dey-toolchain-ccimx8x-sbc-pro-5.0-r3.sh</url>
+		<checksum>5f2ae4d2023099d6c50220cfcb5ae984</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6UL SBC Pro -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217000207</dey-version>
+		<platform>ccimx6ulsbc</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx6ulsbc/x11/dey-toolchain-ccimx6ulsbc-5.0-r3.sh</url>
+		<checksum>b92511180e483dfef08d24a8cd8f8d9c</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6UL SBC Express -->
+	<toolchain>
+		<dey-version>5.0-r3-20251216235334</dey-version>
+		<platform>ccimx6ulstarter</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx6ulstarter/fb/dey-toolchain-ccimx6ulstarter-5.0-r3.sh</url>
+		<checksum>48a9bb2fee03dae91719c067fcca0363</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6 Plus SBC -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217032123</dey-version>
+		<platform>ccimx6qpsbc</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx6qpsbc/xwayland/dey-toolchain-ccimx6qpsbc-5.0-r3.sh</url>
+		<checksum>d7ee3f1934f6b060600354c1bc46a205</checksum>
+	</toolchain>
+
+	<!-- ConnectCore 6 SBC -->
+	<toolchain>
+		<dey-version>5.0-r3-20251217014048</dey-version>
+		<platform>ccimx6sbc</platform>
+		<image-name>dey-toolchain</image-name>
+		<url>http://ftp1.digi.com/support/digiembeddedyocto/5.0/r3/sdk/ccimx6sbc/xwayland/dey-toolchain-ccimx6sbc-5.0-r3.sh</url>
+		<checksum>7b06c1d8104b2f3ee303cb1d93031927</checksum>
+	</toolchain>
+
 	<!-- DEY 5.0-r2 -->
 	<!-- ConnectCore MP25 DVK -->
 	<toolchain>

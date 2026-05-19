@@ -8,8 +8,8 @@
   <remote name="nxp"   fetch="https://github.com/nxp-imx"/>
   <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
   <remote name="swu"   fetch="https://github.com/sbabic"/>
-  <remote name="oe"    fetch="git://git.openembedded.org"/>
-  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="oe"    fetch="https://git.openembedded.org"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
   <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="zeus">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>

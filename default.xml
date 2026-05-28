@@ -17,27 +17,27 @@
   <remote name="oe"    fetch="https://git.openembedded.org"/>
   <remote name="yocto" fetch="https://git.yoctoproject.org"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="scarthgap">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="1acb052f68f777bc258de95caddc61b9d7235039">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
-  <project name="meta-arm.git" path="sources/meta-arm" remote="yocto" revision="scarthgap"/>
+  <project name="meta-arm.git" path="sources/meta-arm" remote="yocto" revision="c4fd56386ee30f8b46f8e4eb1220edaf510d2ac0"/>
   <project name="meta-browser.git" path="sources/meta-browser" remote="browser" revision="f988d616d37ddf160d3d747ed54d0a66d549f499"/>
-  <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="scarthgap"/>
-  <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="scarthgap"/>
-  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="scarthgap"/>
-  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="scarthgap"/>
-  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="scarthgap-6.6.52-2.2.2"/>
-  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="scarthgap"/>
-  <project name="meta-st-x-linux-ai.git" path="sources/meta-st-x-linux-ai" remote="stm" revision="scarthgap"/>
-  <project name="meta-st-x-linux-isp.git" path="sources/meta-st-x-linux-isp" remote="stm" revision="scarthgap"/>
-  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="scarthgap"/>
-  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="scarthgap"/>
-  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.8"/>
-  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="scarthgap"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="scarthgap"/>
-  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="scarthgap"/>
-  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="scarthgap"/>
-  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="scarthgap"/>
-  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="master"/>
-  <project name="poky.git" path="sources/poky" remote="yocto" revision="scarthgap"/>
+  <project name="meta-clang.git" path="sources/meta-clang" remote="clang" revision="5bce7e26a38a58bb52242494e54ab2af40009574"/>
+  <project name="meta-flutter.git" path="sources/meta-flutter" remote="flutter" revision="b6e338a8b1fc9f8907f2c9a167c972a1907ff2ea"/>
+  <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="0c27c21cab57876474bb572e5d378b6707e41224"/>
+  <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345"/>
+  <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="e1ec1a20d573e3913f4ad90fa36546ed2bc87715"/>
+  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="bcadba4d92cbfeba7b7a876c2e828f37a70d0d0a"/>
+  <project name="meta-st-x-linux-ai.git" path="sources/meta-st-x-linux-ai" remote="stm" revision="cd2e2a0bca6e66b79b40f11b74436e81e7f02562"/>
+  <project name="meta-st-x-linux-isp.git" path="sources/meta-st-x-linux-isp" remote="stm" revision="36d6caacc9978c7d78b8b68a3f958850d8614138"/>
+  <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="ae7dfb12245c7f9b9a353499e2688015bd4e6413"/>
+  <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="227cf5e7b64c93dfc1a45f235c466db8c3fd8707"/>
+  <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="c58fdf7af5d92f5dc0a3446a9865580511ae8691"/>
+  <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="48f745109a1ecea9afe2a74d41dbd90fa7b370af"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="75385905a7deecaedb7be8b90141bc96df18b461"/>
+  <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="5ab49bb8ca5f1a782dbea115801f290fabbed551"/>
+  <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="8409bc0c8b9209327add72d8fa72571cdeb5521e"/>
+  <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="2d29669a3d78e462276044f3f8bde0e4dec33696"/>
+  <project name="meta-wolfssl.git" path="sources/meta-wolfssl" remote="wlf" revision="a727d8674bd5c1f034e183de5e4e7632824da023"/>
+  <project name="poky.git" path="sources/poky" remote="yocto" revision="a53cae3de9f45417b97efc4c46c42e4c8ebdb939"/>
 </manifest>

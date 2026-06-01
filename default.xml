@@ -34,7 +34,7 @@
   <project name="meta-qt5.git" path="sources/meta-qt5" remote="qt5" revision="scarthgap"/>
   <project name="meta-qt6.git" path="sources/meta-qt6" remote="qt6" revision="6.8"/>
   <project name="meta-selinux.git" path="sources/meta-selinux" remote="yocto" revision="scarthgap"/>
-  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="scarthgap"/>
+  <project name="meta-swupdate.git" path="sources/meta-swupdate" remote="swu" revision="75385905a7deecaedb7be8b90141bc96df18b461"/>
   <project name="meta-timesys.git" path="sources/meta-timesys" remote="timesys" revision="scarthgap"/>
   <project name="meta-virtualization.git" path="sources/meta-virtualization" remote="yocto" revision="scarthgap"/>
   <project name="meta-webkit.git" path="sources/meta-webkit" remote="igl" revision="scarthgap"/>

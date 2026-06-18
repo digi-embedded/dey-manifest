@@ -27,7 +27,7 @@
   <project name="meta-freescale.git" path="sources/meta-freescale" remote="yocto" revision="scarthgap"/>
   <project name="meta-fsl-demos.git" path="sources/meta-fsl-demos" remote="fsl" revision="scarthgap"/>
   <project name="meta-imx.git" path="sources/meta-imx" remote="nxp" revision="scarthgap-6.6.52-2.2.2"/>
-  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="scarthgap"/>
+  <project name="meta-st-stm32mp.git" path="sources/meta-st-stm32mp" remote="stm" revision="bcadba4d92cbfeba7b7a876c2e828f37a70d0d0a"/>
   <project name="meta-st-x-linux-ai.git" path="sources/meta-st-x-linux-ai" remote="stm" revision="scarthgap"/>
   <project name="meta-st-x-linux-isp.git" path="sources/meta-st-x-linux-isp" remote="stm" revision="scarthgap"/>
   <project name="meta-openembedded.git" path="sources/meta-openembedded" remote="oe" revision="scarthgap"/>
